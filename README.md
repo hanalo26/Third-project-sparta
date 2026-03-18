@@ -46,14 +46,14 @@ uv sync
 
 ✅ 새 라이브러리가 추가된 경우 pull 후 반드시 sync!
 `uv sync`
-→ pyproject.toml이 바뀌었을 수 있으니 꼭 sync 해주세요.
+→ `pyproject.toml`이 바뀌었을 수 있으니 꼭 sync 해주세요.
 
 ✅ add할 때, 자신이 만든 파일만 업로드하기
 -> add하기 전에는 팀원들에게 공유해주세요! 그래야 충돌로 인한 사고를 예방할 수 있습니다.
 
-`git add 파일명.ipynb` 또는 `git add ./하위파일/파일명.ipynb`
+`git add 파일명.ipynb` 또는 `git add ./하위폴더명/파일명.ipynb`
 
-→ .venv/, 데이터 파일(.csv, .xlsx 등)은 .gitignore에 등록되어 있습니다.
+→ .venv/, 데이터 파일(.csv, .xlsx 등)은 `.gitignore`에 등록되어 있습니다.
 
 ✅ 커밋 메시지는 작업 내용을 알 수 있게 작성해 주세요!
 `git commit -m "커밋 메세지"`
