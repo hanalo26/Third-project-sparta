@@ -1,0 +1,28 @@
+# 가상환경
+.venv/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# 환경변수
+.env
+
+# VS Code 설정
+.vscode/
+
+# 로그
+*.log
+
+# 데이터 파일 (구글 드라이브로 공유)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.db
+*.sqlite
